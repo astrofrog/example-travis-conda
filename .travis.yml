@@ -4,6 +4,8 @@ matrix:
   include:
     - python: 2.7
       env: NUMPY=1.9 SCIPY=0.15
+    - python: 2.7
+      env: NUMPY=1.8 SCIPY=0.14
 
 before_install:
 
